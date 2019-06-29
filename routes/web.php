@@ -21,6 +21,6 @@ Route::get('/','TaskController@index');
  */
 Route::post('/task','TaskController@store');
 /**
- * タスク
+ * タスク削除
  */
 Route::delete('/task/{task}','TaskController@destroy');
